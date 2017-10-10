@@ -41,17 +41,17 @@ function randomColor() {
 
 function changeColor(color) {
 	// console.log(randomColor);
-	$("body").css({
+	$("body").animate({
 		backgroundColor: color,
-	});
-	$(".card").css({
+	}, 1000);
+	$(".card").animate({
 		color: color
-	})
-	$("button").css({
+	}, 1000)
+	$("button").animate({
 		color: color,
 		backgroundColor: "white",
-		border: `2px solid ${color}`
-	})
+		borderColor: color,
+	}, 1000)
 
 	$("button").mouseenter(function(){
 		$(this).css({
