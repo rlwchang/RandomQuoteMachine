@@ -1,0 +1,27 @@
+{
+  "name": "randomquotemachine",
+  "version": "1.0.0",
+  "description": "Fetches quotes randomly from the internet.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlwchang/RandomQuoteMachine.git"
+  },
+  "author": "Richard Chang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rlwchang/RandomQuoteMachine/issues"
+  },
+  "homepage": "https://github.com/rlwchang/RandomQuoteMachine#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-inject-css": "^0.3.7",
+    "gulp-sass": "^3.1.0",
+    "postcss": "^6.0.13",
+    "postcss-import": "^11.0.0"
+  }
+}
